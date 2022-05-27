@@ -12,33 +12,23 @@
     </header>
     <main>
       
-      <div class = "container">
-        <div class = "img-col">
-        <img src="imagenes/credit_card.PNG" alt="">
-      </div>
-      <div class = "text-col">
-      <form action = "" class="formulario">
-        
-        <p>
-        <label for="name">Ingresa tu nombre<span style="color:red">*</span></label>
-        <input type="text" id="name" name="name" placeholder="Ingresa tu nombre">
-      </p>
-      <p>
-        
-        <label>Correo electrónico<span style="color:red">*</span></label>
-        <input type="email" id="email" name="email" required/>
-      </p>
-    <p>
-        <label>Número de la tarjeta<span style="color:red">*</span></label>
-        <input type="text" id="creditCardNumber" name="num" maxlength = "16" placeholder="Ingrese sólo números"/>
-      </p>
-        <input type="submit" id ="btnValidator" value="Validar Tarjeta">
+      <div class ="tarjeta">
+      <img src="imagenes/credit_card.PNG" alt="">
+    </div>
+    <div class="formulario">
+          
+            <label>Ingresa tu nombre<span style="color:red">*</span></label>
+            <input type="text" id="name" name="name" placeholder="Ingresa tu nombre"/>
+            <label>Correo electrónico<span style="color:red">*</span></label>
+            <input type="text" id="email" name="email" placeholder="Ingresa tu email"/>
+            <label>Número de la tarjeta<span style="color:red">*</span></label>
+           <input type="text" id="creditCardNumber" name="num" maxlength = "16" placeholder="Ingrese sólo números"/>
+          
+            <input type="submit" id ="btnValidator" value="Validar Tarjeta">
 
         <p id = "result"></p>
-      
-     </form>
     </div>
-    </div>
+   
     </main>
     <footer></footer>
     <script src="script.js"></script>

@@ -1,0 +1,27 @@
+.tarjeta{
+    width: 93%;
+    padding: 50px;
+    margin-bottom: 80px;
+    background-color: #9abde0;
+    border-radius: 5px;
+   
+}
+.formulario{
+    width: 55%;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 156px;
+    right: 16px;
+    font-size: 18px;
+   
+}
+
+input[type=text] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
