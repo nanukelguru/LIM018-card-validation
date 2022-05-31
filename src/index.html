@@ -8,31 +8,33 @@
   </head>
   <body>
     <header>
-      <h1>Valida tu tarjeta aquí</h1>
+      <h1>Festival de Cine</h1>
     </header>
+    <nav></nav>
     <main>
-      
-      <div class ="tarjeta">
-      <img src="imagenes/credit_card.PNG" alt="">
-    </div>
-    <div class="formulario">
-          
+      <div class = "container">
+        <div class="box-1">
+        <img src = "imagenes/credit_card.PNG" alt= " ">
+        </div>
+        <div class="box-2">
             <label>Ingresa tu nombre<span style="color:red">*</span></label>
-            <input type="text" id="name" name="name" placeholder="Ingresa tu nombre"/>
+            <input type="text" id="name" name="name" placeholder="Ingresa tu nombre"/><br>
             <label>Correo electrónico<span style="color:red">*</span></label>
-            <input type="text" id="email" name="email" placeholder="Ingresa tu email"/>
+            <input type="text" id="email" name="email" placeholder="Ingresa tu email"/><br>
             <label>Número de la tarjeta<span style="color:red">*</span></label>
-           <input type="text" id="creditCardNumber" name="num" maxlength = "16" placeholder="Ingrese sólo números"/>
-          
-            <input type="submit" id ="btnValidator" value="Validar Tarjeta">
-
+            <input type="text" id="creditCardNumber" name="num" maxlength = "16" placeholder="Ingrese sólo números"/><br>
+            
+        </div>
         <p id = "result"></p>
-    </div>
-   
-    </main>
+      
+      </div>
+      <input type="submit" id ="btnValidator" value="Validar Tarjeta">
+     </main>  
+    
+    
     <footer></footer>
-    <script src="script.js"></script>
-    <script src="validator.js"></script>
-    <script src="index.js" type="module"></script>
+    <script src = "script.js"></script>
+    <script src = "validator.js"></script>
+    <script src = "index.js" type="module"></script>
   </body>
 </html>

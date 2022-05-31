@@ -1,27 +1,35 @@
-.tarjeta{
-    width: 93%;
-    padding: 50px;
-    margin-bottom: 80px;
-    background-color: #9abde0;
-    border-radius: 5px;
-   
+body{
+    background-color: black;
 }
-.formulario{
-    width: 55%;
-    margin-bottom: 10px;
-    position: absolute;
-    top: 156px;
-    right: 16px;
-    font-size: 18px;
-   
-}
-
-input[type=text] {
-    width: 25%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: block;
+.container{
     border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
+    padding: 15px;
+    background-color: #ffc300;
+    border-radius: 20px;
+}
+.box-1{
+    margin: 55px 50px 75px 150px;
+    
+    
+}
+.box-2{
+    width: 490px;
+    height: 218px;
+    padding: 30px;
+    float: right;
+    margin-top: -360px;
+    margin-right: 317px;
+    background-color: blueviolet;
+
+}
+#btnValidator{
+position: absolute;
+width: 304px;
+height: 39px;
+left: 400px;
+top: 550px;
+background-color:#e3ab40;
+
+filter: drop-shadow(2px 4px 10px rgba(0, 0, 0, 0.08));
+
+}
