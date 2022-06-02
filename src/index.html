@@ -2,33 +2,56 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
    
+    <title>Tarjeta de crédito válida</title>
+    <link rel = "icon" type = "image/jpg" href="imagenes/fetcsi.jpg">
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,200;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   </head>
   <body>
     <header>
-      <h1>Festival de Cine</h1>
+      <h1>Festival de Cine Independiente</h1>
+      
     </header>
+
     <nav></nav>
+
     <main>
+      
+    <section>
+      <button id="back-button" class="card-icon"><i class="fa fa-chevron-circle-left"></i></button>
+
       <div class = "container">
+        <h2>Validar Tarjeta</h2>
         <div class="box-1">
-        <img src = "imagenes/credit_card.PNG" alt= " ">
+          <h3>Detalles de Pago</h3>
+          <form>
+            <label>Ingresa tu nombre</label>
+            <input type="text" id="name" name="name" placeholder="Ingresa tu nombre"/><br>
+            <label>Correo electrónico</label>
+            <input type="text" id="email" name="email" placeholder="Ingresa tu email"/><br>
+            <label>Número de la tarjeta</label>
+            <input type="text" id="creditCardNumber" name="num" maxlength = "16" placeholder="Ingrese sólo números"/><br>
+            <input type="submit" id ="btnValidator" value="Validar Tarjeta">
+            <p id = "result"></p>
+          </form>
         </div>
         <div class="box-2">
-            <label>Ingresa tu nombre<span style="color:red">*</span></label>
-            <input type="text" id="name" name="name" placeholder="Ingresa tu nombre"/><br>
-            <label>Correo electrónico<span style="color:red">*</span></label>
-            <input type="text" id="email" name="email" placeholder="Ingresa tu email"/><br>
-            <label>Número de la tarjeta<span style="color:red">*</span></label>
-            <input type="text" id="creditCardNumber" name="num" maxlength = "16" placeholder="Ingrese sólo números"/><br>
-            
-        </div>
-        <p id = "result"></p>
-      
-      </div>
-      <input type="submit" id ="btnValidator" value="Validar Tarjeta">
+          <section class="letter-1">
+          <label>Banco</label>
+          </section>
+          <img src="imagenes/chip.png" alt="Visa" class="img-1">
+          <section class="letter-2">
+            <label>79927398713</label>
+          </section>
+          <section class="letter-3">
+            <label>Angélica López</label>
+          <section class="letter-4">
+            <label>03/23</label>
+         </div>
+        </section>
      </main>  
     
     

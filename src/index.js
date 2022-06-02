@@ -7,11 +7,11 @@ const creditCardNumber = document.getElementById('creditCardNumber');
 
 
 btnValidator.addEventListener('click', (event) => {
-   // event.preventDefault()
+   event.preventDefault()
     //console.log("hola!", creditCardNumber.value);
     if(validator.isValid(creditCardNumber.value)){
         result.innerHTML = `Tu tarjeta es válida`;
     } else {
-        result.innerHTML = `Tu verificación falló ${validator.maskify(creditCardNumber.value)}, vuelve a intentarlo`;
+        result.innerHTML= `Tu verificación falló ${validator.maskify(creditCardNumber.value)}, ingresa un número válido`;
     }
     });
