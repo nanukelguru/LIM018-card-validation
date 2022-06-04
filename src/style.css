@@ -9,13 +9,56 @@ body{
 h1{
     text-align: center;
     font-size: 50px;
+    margin-bottom: 2px;
+}
+h2,h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0px 0px -50px 0px;  
+}
+.img-camera{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-left: 80px;
+    
+}
+.container-p{
+    text-align: center;
+    margin-top: 0px;
+    background-color: #E3AB40;
+    font-weight: 550;
+}
+p{
+    font-size: 30px;
+    text-align: center;
 }
 
-h2{
-   text-align: center;
-   font-size: 35px;
+.producciones{
+    /*background-image: url("imagenes/portada_1.jpg");*/
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+ 
 }
-
+.fotografias{
+    margin: 0px 120px 80px 130px;
+   /* box-shadow: 0 4px 8px 0 #f3275d, 0 6px 2px 0 rgba(10, 10, 10, 0.11);*/
+    float: left;
+    width: 250px;
+}
+.fotografias img{
+    padding-top: 130px;
+    width: 100%;
+    height: auto;
+    margin: 10px 0px 0px 50px;
+}
+.comprarButton{
+    padding: 10px 20px;
+    font-size: large;
+    font-weight: 520;
+    margin: 20px 50px 0px 95px;
+  
+}
 
 .container{
     box-sizing: border-box;

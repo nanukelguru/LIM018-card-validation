@@ -12,26 +12,49 @@
   </head>
   <body>
     <header>
+      <img src="imagenes/cinema-camera.jpg" class="img-camera">
       <h1>Festival de Cine Independiente</h1>
-      
-    </header>
-
-    <nav></nav>
-
-    <main>
-      
-    <section>
-      <button id="back-button" class="card-icon"><i class="fa fa-chevron-circle-left"></i></button>
+    </header> 
+    <section class="index" style="display: flex">
+      <main class="producciones">
+        <div class="container-p">
+          <p>Festival de cine que difunde producciones audiovisuales independientes del Perú</p>
+        </div>
+          <h3>Elige tu favorita</h3>
+        <div class= "fotografias">
+          
+          <div class = "foto1">
+            <img src="imagenes/saramama.PNG" alt="Sara Mama">
+            <input type="radio" name="foto" value="Sara Mama">
+          </div>
+        </div> 
+        <div class="fotografias">
+          <div class = "foto2">
+            <img src="imagenes/hierromar.PNG" alt="Hierro Mar">
+            <input type="radio" name="foto" value="Hierro Mar">
+          </div>
+          <button class="comprarButton" id="btnComprar">Comprar</button>
+        </div>
+        <div class="fotografias">
+          <div class = "foto3">
+            <img src="imagenes/sebastian.PNG" alt="Sebastian">
+            <input type="radio" name="foto" value="Sebastian">
+          </div>
+        </div>  
+    </main>  
+    </section>
+    <section class="validation" style="display:none">
+      <button class="card-icon" id="backButton" ><i class="fa fa-chevron-circle-left"></i></button>
 
       <div class = "container">
         <h2>Validar Tarjeta</h2>
         <div class="box-1">
-          <h3>Detalles de Pago</h3>
+          <h4>Detalles de Pago</h4>
           <form>
             <label>Ingresa tu nombre</label>
-            <input type="text" id="name" name="name" placeholder="Ingresa tu nombre"/><br>
+            <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required/><br>
             <label>Correo electrónico</label>
-            <input type="text" id="email" name="email" placeholder="Ingresa tu email"/><br>
+            <input type="text" id="email" name="email" placeholder="Ingresa tu email" required/><br>
             <label>Número de la tarjeta</label>
             <input type="text" id="creditCardNumber" name="num" maxlength = "16" placeholder="Ingrese sólo números"/><br>
             <input type="submit" id ="btnValidator" value="Validar Tarjeta">
@@ -51,10 +74,8 @@
           <section class="letter-4">
             <label>03/23</label>
          </div>
-        </section>
-     </main>  
-    
-    
+      </section>
+         
     <footer></footer>
     <script src = "script.js"></script>
     <script src = "validator.js"></script>
