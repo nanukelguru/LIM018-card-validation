@@ -1,4 +1,18 @@
 # Tarjeta de crédito válida
+## Descripción General
+El algoritmo de Luhn o fórmula de Luhn, es una fórmula de suma de verificación, utilizada para validar una diversidad de números de identificación; como números de tarjetas de crédito, números IMEI, etc.
+
+## Propuesta
+ Hoy en día, el algoritmo de Luhn es un componente esencial del sistema de pago electrónico y lo utilizan todas las principales tarjetas de crédito.
+Este proyecto permitirá al usuario comprar una entrada online al Festival de Cine Independiente Cine Fest, para ello deberá validar su tarjeta de crédito.
+
+* Los usuarios principales del producto son cinéfilos, cineastas, productores, directores de Cine Independiente
+* Los usuarios podrán comprar las películas en estreno del Festival a través de la plataforma
+* El producto permite poder estar al tanto de los estrenos del Festival y poder acceder a ellos de una manera rapida y sencilla mediante pagos online con tarjetas de crédito
+
+## Diseño
+![Diseño](https://github.com/nanukelguru/LIM018-card-validation/blob/main/src/imagenes/UserFlowDesign.png)
+
 
 ## Índice
 
