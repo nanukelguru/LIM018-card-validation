@@ -90,7 +90,7 @@ p{
     top: 154px;
     background-color: #e95cb2;
     border-radius: 10px;
-    background-image: linear-gradient(to left, #e95cb2 , rgb(104, 37, 67));
+    background-image: linear-gradient(to left, #e95cb2 , #682543);
     font-family: 'Courier New';
     filter: drop-shadow(10px 10px 5px #fff);
 
