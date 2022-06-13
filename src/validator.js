@@ -28,10 +28,16 @@ const validator = {
     return (sum % 10) === 0;
 
   },
-  maskify: (creditCardNumber) => {
-    return creditCardNumber.replace(/.(?=.{4})/g, '#');
 
+  //   maskify: (creditCardNumber) => {
+  //     return creditCardNumber.replace(/.(?=.{4})/g, '#');
+
+  // }
+  maskify: (creditCardNumber) => {
+    return creditCardNumber.split('').map((valor, idx) => idx < creditCardNumber.length - 4 ? '#' : valor).join('');
+    
 }
 };
+
 export default validator;
 
